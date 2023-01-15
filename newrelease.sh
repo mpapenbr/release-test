@@ -13,7 +13,7 @@ echo "MY_VERSION=$NEW_VERSION" > version.sh
 git add version.sh
 git commit -m "Release v$NEW_VERSION"
 git push
-git tag v$NEW_VERSION
+git tag v$NEW_VERSION -m "tag $NEW_VERSION"
 git push origin v$NEW_VERSION
 
 
