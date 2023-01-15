@@ -21,7 +21,7 @@ fi
 MAJOR=`echo $base | sed -e "s#$RE#\1#"`
 MINOR=`echo $base | sed -e "s#$RE#\2#"`
 PATCH=`echo $base | sed -e "s#$RE#\3#"`
-REST=`echo $base | sed -e "s#$RE#\4#"`
+
 
 case "$step" in
   major)
@@ -35,4 +35,4 @@ case "$step" in
     ;;
 esac
 
-echo "$MAJOR.$MINOR.$PATCH$REST"
+echo "$MAJOR.$MINOR.$PATCH"

@@ -6,7 +6,12 @@ then
   step=patch
 fi
 
-NEW_VERSION=$(./nextver.sh $1)
+if [ "$2" ]
+then
+  suffix=-"$2"
+fi
+
+NEW_VERSION=$(./nextver.sh $1)$suffix
 echo "MY_VERSION=$NEW_VERSION" > version.sh
 
 # push the new version to the master
