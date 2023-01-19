@@ -12,3 +12,10 @@ Component:Version
 racelogger: v0.6.2
 iracelog: v0.18.3
 :===
+
+List of current components versions (include)
+
+[%header,format=csv]
+,===
+include::versions.csv[]
+,===
