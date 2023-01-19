@@ -6,7 +6,7 @@ _work in progress_
 
 List of current components versions
 
-
+[%header,format=dsv]
 :===
 Component:Version
 racelogger: v0.6.2
