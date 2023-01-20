@@ -19,3 +19,22 @@ List of current components versions (include)
 ,===
 include::versions.csv[]
 ,===
+
+List of current components versions (include,inline)
+
+[%header,format=csv,opts=inline]
+,===
+include::versions.csv[]
+,===
+
+Sample graph png
+
+image::sample.drawio.png[format=svg]
+
+Sample drawio svg
+
+image::sample-raw.drawio.svg[format=svg]
+
+Sample drawio 
+
+image::sample2.drawio[format=svg]
